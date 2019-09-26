@@ -50,8 +50,8 @@ dataLookup::dataLookup(string filename)
         //makes a new Data entry using the row and then adds it as a new entry to the map based on pageID.
         //if (firstLine == 1)
         //{
-        //    dataEntry newData(row, emptyYear);
-        //   dataMap[newData.pageID] = newData;
+        dataEntry newData(row, emptyYear);
+        dataMap[newData.pageID] = newData;
         //}
         //firstLine = 1;
 
