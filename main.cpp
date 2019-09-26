@@ -16,7 +16,7 @@ int main()
 {
     //main
     //passes input file name to dataLookup constructor, constructs the map indexed by PID
-    string fileName = "/home/class/SoftDev/marvel/marvel-wikia-data.csv";
+    string fileName = "input.txt";
     dataLookup ourMap(fileName);
     //create year and name maps used for user lookup
     ourMap.createYearAndNameMaps();
